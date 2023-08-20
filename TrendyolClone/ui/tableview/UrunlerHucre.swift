@@ -11,7 +11,6 @@ import UIKit
 protocol HucreProtokol {
     func sepeteEkleTikla(indexPath : IndexPath)
         
-    
 }
 
 
