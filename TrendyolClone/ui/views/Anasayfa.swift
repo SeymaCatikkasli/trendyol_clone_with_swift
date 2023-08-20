@@ -46,10 +46,7 @@ class Anasayfa: UIViewController {
         tasarim.minimumInteritemSpacing = 10
         tasarim.minimumLineSpacing = 10
         
-        // 10 X 10 X 10 = 30 BOŞLUK
-        // 15 X 15 X 15 X 15 = 40 BOŞLUK
-        
-        
+
         
        
         
@@ -87,7 +84,7 @@ extension Anasayfa :UICollectionViewDelegate,UICollectionViewDataSource, HucrePr
         hucre.layer.cornerRadius = 10.0
         
         
-        hucre.hucreProtokol = self  //filmhucreye eriştik değer aktarmamız ferekiyodu ve indexpat gerkiyodu aktardık
+        hucre.hucreProtokol = self  
         hucre.indexPath = indexPath
         
         return hucre
